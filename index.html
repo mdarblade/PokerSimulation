@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="shortcut icon" href="">
+		<title>Poker Simulation</title>
+        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/ui-lightness/jquery-ui.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/slider.css">
+	</head>
+	
+	<body>
+		<div class="jumbotron text-center">
+		  <h1>Poker intuition</h1>
+		  <p>Slide to probability of winning the game at this moment against 1 opponent</p> 
+		  <p>Current <a href="https://www.kaggle.com/wiki/LogarithmicLoss">logloss</a> over 
+				<b id="ngame">0</b> 
+				games : 
+				<b id="currentll">0<b><b>%</b></p> 
+		  <p><b id="hit">0</b> hit over <b id="guesses">0</b> guesses !</p> 				
+		</div>
+
+
+		<div class="slider-row">
+			<div id="slider" class="slider">
+				<span id="slider-thumb">50 %</span>
+				
+			</div>
+		</div>
+
+		<div class="container text-center">
+					
+			<div class="row" class="text-center">
+				<h1>Your hand</h1>
+
+				<div class="col-sm-3">
+				</div>						
+				
+				<div class="col-sm-3" >
+					<div class="handc" id="C1">
+					</div>
+				</div>
+				
+				<div class="col-sm-3" >
+					<div class="handc" id="C2">
+					</div>
+				</div>
+				</div>
+			
+
+			<div class="row" class="text-center">
+				<h1>Board</h1>
+				
+				<div class="col-sm-15" >
+					<div class="handc" id="B1">
+					</div>
+				</div>
+				
+				<div class="col-sm-15" >
+					<div class="handc" id="B2">
+					</div>
+				</div>
+				
+				<div class="col-sm-15" >
+					<div class="handc" id="B3">
+					</div>
+				</div>
+				
+				<div class="col-sm-15" >
+					<div class="handc" id="B4">
+					</div>
+				</div>
+				
+				<div class="col-sm-15" >
+					<div class="handc" id="B5">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="js/jquery.ui.touch-punch.min.js"></script>	
+    <script src="js/slider.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

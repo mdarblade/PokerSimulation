@@ -1,0 +1,7 @@
+To do:
+
+- fix incorrect probability
+- fix log loss
+- clean global variables
+- generate new hands
+- random hands each turns

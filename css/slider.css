@@ -1,0 +1,126 @@
+body {
+  font-family: Helvetica Neue, Helvetica, Arial;
+  font-weight: 300;
+}
+
+main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333;
+}
+
+form {
+  max-width: 500px;
+  min-width: 320px;
+}
+
+h2 {
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.ui-slider .ui-slider-handle {
+  box-sizing: border-box;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.5);
+  border: 6px solid #fff;
+  height: 24px;
+  width: 24px;
+  border-radius: 100px;
+  background: #333940;
+  cursor: pointer;
+  position: absolute;
+  -ms-touch-action: pan-x;
+  touch-action: pan-x;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translate(-3px, -50%);
+  will-change: left;
+  outline:none;
+
+}
+
+.slider-row{
+  position: relative;
+  margin-left: 10%;
+  margin-top: 0%;
+  width: 80%;
+}
+
+.slider{
+  padding: 10px !important;
+}
+
+
+#slider-thumb{
+	display: block;
+	position: absolute;
+	height: 60px;
+	line-height: 60px;
+	min-width: 32px;
+	padding: 0 20px;
+	top: -26px;
+	-webkit-transform: translate(-50%, -100%);
+		  transform: translate(-50%, -100%);
+	background: #383c42;
+	color: #fff;
+	border-radius: 100px;
+	white-space: nowrap;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: center;
+	
+}
+
+#slider-thumb:before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  border: 10px solid #383c42;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#slider-ghost {
+  box-sizing: border-box;
+  height: 24px;
+  width: 4px;
+  border-radius: 100px;
+  background: #333940;
+  cursor: pointer;
+  position: absolute;
+  -ms-touch-action: pan-x;
+  touch-action: pan-x;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  will-change: left;
+  outline:none;
+
+}
+
+
+
+
+
+
+
+
+
+
